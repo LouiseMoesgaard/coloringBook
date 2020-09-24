@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rjo7giq.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>14C.01.03 - Coloring Book</h1>
-    <section>
-    </section>
-    
+    <h1>Louises coloringbook</h1>
+    <h2>picture name</h2>
+
+    <div class="svg_wrapper">
+        <section id="colored_svg"></section>
+    </div>
+
+    <div class="svg_wrapper right">
+        <section id="uncolored_svg"></section>
+    </div>
+
+    <div id="selected_color"></div>
+
+    <div class="colors">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+    </div>
+
+    <div class="colorPicker hide">
+        <label for="colorPicker">Select different colors: </label>
+            <input id="colorPicker" type="color">
+    </div>
+
+    <div class="colors left_side">
+        <div class="color">
+            <div class="color_pick" data-field="1"></div>
+        </div>
+        <div class="color">
+            <div class="color_pick" data-field="2"></div>
+        </div>
+        <div class="color">
+            <div class="color_pick" data-field="3"></div>
+        </div>
+        <div class="color">
+            <div class="color_pick" data-field="4"></div>
+        </div>
+    </div>
+        
     <script src="script.js"></script>
 </body>
 </html>
